@@ -24,6 +24,7 @@ Python 3.9.21
 R 4.1
 
 📦 Original Data and Processing
+
 ICN template:
 Neuromark_fMRI_1.0 template available at: http://trendscenter.org/software/gift
 
