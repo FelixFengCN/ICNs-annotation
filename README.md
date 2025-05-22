@@ -47,6 +47,7 @@ Resulting cell-type maps:
 Available at: https://trendscenter.org/data/
 
 📁 Data Files (in data/)
+
 f_ic_6_celltype_t3.mat
     ic: Spatial values of the 6th IC overlapping with AHBA samples
 
@@ -57,6 +58,7 @@ f_ic_6_celltype_t3.mat
     centroids: Spatial coordinates
 
 f_ic_6_mitochondrion_t3.mat
+
     ic: Spatial values of the 6th IC overlapping with mitochondrial maps
 
     ic_null: 1,000 spatial permutations (via BrainSpace) (not included due to file size)
@@ -68,6 +70,7 @@ f_ic_6_mitochondrion_t3.mat
 Note: Neurotransmitter test file is not included due to size but follows the same structure as the mitochondrial file.
 
 🧠 Code Overview (in Codes/)
+
 analysis_ic_celltype_corr_f.m
 Computes spatial correlations between ICNs and cell-type maps.
 
