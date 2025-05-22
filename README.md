@@ -49,6 +49,7 @@ Available at: https://trendscenter.org/data/
 📁 Data Files (in data/)
 
 f_ic_6_celltype_t3.mat
+
     ic: Spatial values of the 6th IC overlapping with AHBA samples
 
     ic_null: 1,000 spatial permutations (Moran test via BrainSpace)
@@ -72,19 +73,24 @@ Note: Neurotransmitter test file is not included due to size but follows the sam
 🧠 Code Overview (in Codes/)
 
 analysis_ic_celltype_corr_f.m
+
 Computes spatial correlations between ICNs and cell-type maps.
 
 analysis_ic_mitochondral_multiplecorr.R
+
 Computes correlations between ICNs and mitochondrial maps, and performs relative importance analysis using the relaimpo R package.
 
 analysis_ic_neurotransmitter_multiplecorr.R
+
 Performs correlation and importance analysis for neurotransmitter maps.
 
 clustering.py
+
 Performs network clustering and Adjusted Rand Index (ARI) calculation.
 Diffusion embedding from BrainSpace is used to project similarity networks into a shared space.
 K-means clustering groups the projected connections, and ARI quantifies the consistency with functional domain labels.
 
 analysis_mediation.R
+
 Conducts mediation analysis using the PROCESS module in R.
 Cellular/molecular maps are predictors, cognitive probabilistic measures are outcomes, and ICNs serve as mediators.
