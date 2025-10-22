@@ -2,7 +2,7 @@
 This repository provides the data and code associated with our study:
 
 Guozheng Feng, Jiayu Chen, Jing Sui, Vince D. Calhoun.
-Cellular and molecular underpinnings of functional networks in the human brain.
+Cellular and molecular associations with intrinsic brain organization.
 https://doi.org/10.1101/2025.04.28.651051
 
 If you use this repository, please cite the above paper.
