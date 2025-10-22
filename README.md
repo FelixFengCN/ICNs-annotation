@@ -48,6 +48,7 @@ Resulting cell-type maps:
 Available at: https://trendscenter.org/data/
 
 📁 Data Files (in data/)
+This folder contains small test datasets for verifying the analysis scripts.
 
 f_ic_6_celltype_t3.mat
 
@@ -57,17 +58,15 @@ f_ic_6_celltype_t3.mat
 
     celltype: Spatial values from 24 cell-type maps
 
-    centroids: Spatial coordinates
 
-f_ic_6_mitochondrion_t3.mat
+f_ic_3_mitochondrion_t3.mat
 
-    ic: Spatial values of the 6th IC overlapping with mitochondrial maps
+    ic: Spatial values of the 3rd IC overlapping with mitochondrial maps
 
-    ic_null: 1,000 spatial permutations (via BrainSpace) (not included due to file size)
+    ic_null: 500 spatial permutations (Moran test; reduced from 1,000 due to file size)
 
     mitochondrion: Spatial values from 6 mitochondrial maps
 
-    centroids: Spatial coordinates
 
 Note: Neurotransmitter test file is not included due to size but follows the same structure as the mitochondrial file.
 
@@ -95,3 +94,11 @@ analysis_mediation.R
 
 Conducts mediation analysis using the PROCESS module in R.
 Cellular/molecular maps are predictors, cognitive probabilistic measures are outcomes, and ICNs serve as mediators.
+
+📊 Results (in results/)
+
+This folder contains numerical data underlying the main figures and tables reported in the manuscript.
+
+📜 License
+
+All code and example data are released for research and academic use only. Please cite the original publication when using any part of this repository.
