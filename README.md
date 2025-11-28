@@ -3,9 +3,9 @@ This repository provides the data and code associated with our study:
 
 Guozheng Feng, Jiayu Chen, Jing Sui, Vince D. Calhoun.
 Cellular and molecular associations with intrinsic brain organization.
-https://doi.org/10.1101/2025.04.28.651051
+https://doi.org/10.1038/s41467-025-66291-w
 
-If you use this repository, please cite the above paper (https://doi.org/10.1101/2025.04.28.651051) and Github repository [![DOI](https://zenodo.org/badge/969851378.svg)](https://doi.org/10.5281/zenodo.17411036).
+If you use this repository, please cite the above paper (https://doi.org/10.1038/s41467-025-66291-w) and Github repository [![DOI](https://zenodo.org/badge/969851378.svg)](https://doi.org/10.5281/zenodo.17411036).
 
 🔗 Additional Resources
 Custom data and analysis scripts are also available at:
